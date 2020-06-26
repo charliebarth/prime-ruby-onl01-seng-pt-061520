@@ -1,4 +1,5 @@
 def prime(array)
-  array.each do |number|
-    number.
+  array.any do |number|
+    number.prime?
+  end
 end
