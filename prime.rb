@@ -1,5 +1,3 @@
-def prime(array)
-  array.any do |number|
-    number.prime?
-  end
+def prime(number)
+ puts  number.prime?
 end
